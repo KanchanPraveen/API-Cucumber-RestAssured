@@ -1,34 +1,101 @@
-# API-Cucumber
+# API-Cucumber Framework
 
-## **Overview:**
-API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.  This API framework is developed using REST Assured and Cucumber.  REST Assured is a Java library that provides a domain-specific language (DSL) for writing powerful, maintainable tests for RESTful APIs. Cucumber is an open source library, which supports behavior driven development. To be more precise, Cucumber can be defined as a testing framework, driven by plain English text. It serves as documentation, automated tests, and a development aid – all in one.
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)](https://www.oracle.com/java/)
+[![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=Apache%20Maven&logoColor=white)](https://maven.apache.org/)
+[![Cucumber](https://img.shields.io/badge/Cucumber-29BA0F?style=flat&logo=cucumber&logoColor=white)](https://cucumber.io/)
+[![REST Assured](https://raw.githubusercontent.com/rest-assured/rest-assured/master/rest-assured-logo-green.png)](https://rest-assured.io/)
+[![Extent Reports](https://img.shields.io/badge/ExtentReports-FF5733?style=flat&logo=appveyor&logoColor=white)](http://extentreports.com/)
 
-For Demo purpose all the test cases are done on [Restful-booker](https://restful-booker.herokuapp.com/apidoc/index.html).
+---
 
-### **Some of the key features of this framework:**
+## Overview
+**API** stands for **Application Programming Interface**, allowing applications to communicate with each other. This framework automates **RESTful API testing** using **REST Assured** and **Cucumber (BDD)**.
 
-1. It generates Extent report with all the step details. Report will be generated both HTML & PDF file format.
-2. Generates execution logs, with detailed request and response details.
-3. Feature file has examples of reading request details from json and excel file.
-4. This also has an example to validate response body using json schema and java pojo classes.
-5. Test execution can be triggered form command line. 
-6. Easy integration to CI/CD pipeline.
+> **Demo Application**: Restful-Booker API
 
-## **Required Setup :**
+---
+---
 
-- [Java](https://www.guru99.com/install-java.html) should be installed and configured.
-- [Maven](https://mkyong.com/maven/how-to-install-maven-in-windows/) should be installed and configured.
-- Download the files from Git repository either as zip file OR using [Git](https://phoenixnap.com/kb/how-to-install-git-windows).
+## Key Features
+- Generates **Extent Reports** (HTML & PDF)
+- Generates **detailed logs** with request/response info
+- Reads request data from **JSON & Excel files**
+- Validates responses using **JSON Schema & Java POJO classes**
+- CLI-triggered execution (`mvn clean test`)
+- Easy **CI/CD integration**
 
-## **Running Test:**
+---
 
-Open the command prompt and navigate to the folder in which pom.xml file is present.
-Run the below Maven command.
+## Tools & Technologies
 
-    mvn clean test
+| Tool           | Logo                                                                                                           | Official Link                       |
+|----------------|----------------------------------------------------------------------------------------------------------------|-------------------------------------|
+| Java           | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)                         | [Java](https://www.oracle.com/java/) |
+| Maven          | ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=Apache%20Maven&logoColor=white)              | [Maven](https://maven.apache.org/)   |
+| REST Assured   | ![REST Assured](https://raw.githubusercontent.com/rest-assured/rest-assured/master/rest-assured-logo-green.png) | [REST Assured](https://rest-assured.io/) |
+| Cucumber       | ![Cucumber](https://img.shields.io/badge/Cucumber-29BA0F?style=flat&logo=cucumber&logoColor=white)              | [Cucumber](https://cucumber.io/)     |
+| Extent Reports | ![Extent Reports](https://img.shields.io/badge/ExtentReports-FF5733?style=flat&logo=appveyor&logoColor=white)    | [Extent Reports](http://extentreports.com/) |
 
 
-Once the execution completes report & log will be generated in below folder.
+## Required Setup
+1. **Install Java**: [Download here](https://www.oracle.com/java/)
+2. **Install Maven**: [Download here](https://maven.apache.org/)
+3. **Clone the repository**:
 
-**Report:** 		*target/report*<br>
-**Log:** 		*target/logs*
+# API-Cucumber Framework
+
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)](https://www.oracle.com/java/)
+[![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=Apache%20Maven&logoColor=white)](https://maven.apache.org/)
+[![Cucumber](https://img.shields.io/badge/Cucumber-29BA0F?style=flat&logo=cucumber&logoColor=white)](https://cucumber.io/)
+[![REST Assured](https://raw.githubusercontent.com/rest-assured/rest-assured/master/rest-assured-logo-green.png)](https://rest-assured.io/)
+[![Extent Reports](https://img.shields.io/badge/ExtentReports-FF5733?style=flat&logo=appveyor&logoColor=white)](http://extentreports.com/)
+
+---
+
+## Overview
+**API-Cucumber Framework** automates **RESTful API testing** using **REST Assured** and **Cucumber (BDD)**.
+
+- **REST Assured**: Java library for readable and maintainable API tests.
+- **Cucumber**: BDD framework with tests in **plain English**.
+
+> **Demo Application**: Restful-Booker API
+
+---
+
+## Clone Repository
+
+```bash
+git clone https://github.com/KanchanPraveen/API-Cucumber-RestAssured
+
+## Reports & Logs
+
+After execution:
+
+- **Reports**: `target/report`  
+- **Logs**: `target/logs`  
+
+> Contains detailed test results along with request and response information for debugging.
+
+---
+
+## Example Features
+
+- Read requests from **JSON & Excel files**  
+- Validate responses using **JSON Schema & POJO classes**  
+- **Detailed logging and reporting**
+
+---
+
+## CI/CD Integration
+
+- Seamless integration with **Jenkins, GitHub Actions, GitLab CI**  
+- Run tests automatically in pipelines using Maven commands
+
+---
+
+## Contact
+
+For queries or contributions, contact:  
+**Praveen Kanchan** – kanchan.praveen87@gmail.com
+
+
