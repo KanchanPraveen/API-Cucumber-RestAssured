@@ -42,26 +42,6 @@
 2. **Install Maven**: [Download here](https://maven.apache.org/)
 3. **Clone the repository**:
 
-# API-Cucumber Framework
-
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)](https://www.oracle.com/java/)
-[![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=Apache%20Maven&logoColor=white)](https://maven.apache.org/)
-[![Cucumber](https://img.shields.io/badge/Cucumber-29BA0F?style=flat&logo=cucumber&logoColor=white)](https://cucumber.io/)
-[![REST Assured](https://raw.githubusercontent.com/rest-assured/rest-assured/master/rest-assured-logo-green.png)](https://rest-assured.io/)
-[![Extent Reports](https://img.shields.io/badge/ExtentReports-FF5733?style=flat&logo=appveyor&logoColor=white)](http://extentreports.com/)
-
----
-
-## Overview
-**API-Cucumber Framework** automates **RESTful API testing** using **REST Assured** and **Cucumber (BDD)**.
-
-- **REST Assured**: Java library for readable and maintainable API tests.
-- **Cucumber**: BDD framework with tests in **plain English**.
-
-> **Demo Application**: Restful-Booker API
-
----
-
 ## Clone Repository
 
 ```bash
